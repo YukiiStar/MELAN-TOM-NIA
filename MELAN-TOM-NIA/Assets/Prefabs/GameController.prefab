@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 3137894402634458596, guid: 70929e80f39d11542b314d09b245889b, type: 3}
-  spawnPoints: []
+  spawnPoints:
+  - {fileID: 0}
   maxEnemies: 5
-  spawnInterval: 3
+  spawnInterval: 4
