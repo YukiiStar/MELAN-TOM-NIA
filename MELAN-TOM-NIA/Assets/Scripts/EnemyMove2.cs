@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InimigoMovement : MonoBehaviour
+public class EnemyMove2 : MonoBehaviour
 {
     public Transform Inimigo;
-    public Transform[] PosAtual;
+    private Transform PosAtual;
     public float veloc;
   
     // Start is called before the first frame update
     void Start()
     {
-        Inimigo.position = PosAtual[0].position;
+        Inimigo.position = Inimigo.position;
+        PosAtual = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
 
@@ -19,10 +20,8 @@ public class InimigoMovement : MonoBehaviour
     void Update()
     {
       
-        Inimigo.position = Vector3.MoveTowards(Inimigo.position,PosAtual[1].position, veloc * Time.deltaTime);
+        Inimigo.position = Vector3.MoveTowards(Inimigo.position,PosAtual.position, veloc * Time.deltaTime);
       
     }
 
 }
-
-
