@@ -47,8 +47,8 @@ public class Setinhas : MonoBehaviour
                     // Se todas as setas foram pressionadas corretamente
                     if (currentIndex >= enemySequence.Count)
                     {
-                        Destroy(gameObject); //Inimigo é destruído após realizar a sequência correta
                         Debug.Log("Você derrotou o inimigo! Parabéns!");
+                        GameController.Instance.EnemyDefeated(enemy.gameObject); // Notifica o GameController
                         this.enabled = false; // Desativa o script após a vitória
                     } 
                 }
