@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3917297071065553563}
-  - component: {fileID: 4296197088846816111}
   - component: {fileID: 3101941381953783352}
+  - component: {fileID: 1041762978287951752}
   m_Layer: 0
   m_Name: INIMIGO (com script)
   m_TagString: Untagged
@@ -37,23 +37,6 @@ Transform:
   - {fileID: 1783162773295276932}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4296197088846816111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3137894402634458596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8502dfbed15f3644a8e264460da8d796, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Inimigo: {fileID: 3942404547052977572}
-  PosAtual:
-  - {fileID: 7429067134377799337}
-  - {fileID: 0}
-  veloc: 1.5
 --- !u!114 &3101941381953783352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +58,20 @@ MonoBehaviour:
   downArrowSprite: {fileID: 21300000, guid: 4c149df1b7c73034db2a09d00eeee121, type: 3}
   leftArrowSprite: {fileID: 21300000, guid: c27e0dbf4d86dca4e87b8e074010d8a3, type: 3}
   rightArrowSprite: {fileID: 21300000, guid: 29f30e8f9a6d55a4599fd27c85552728, type: 3}
+--- !u!114 &1041762978287951752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3137894402634458596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed9c617053cabc4db2235501ca7015f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inimigo: {fileID: 3942404547052977572}
+  veloc: 2
 --- !u!1 &5471464168136186594
 GameObject:
   m_ObjectHideFlags: 0
