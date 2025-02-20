@@ -6,13 +6,19 @@ public class PlayerLives : MonoBehaviour
 {
     // Variável pública que representa as vidas do jogador
     public int lives = 3;
-    private Animator anim;
+    public GameObject Morrendo;
+    
+    
+    private SpriteRenderer sr;
+    private BoxCollider2D box;
     void Start()
     {
         // Inicializa as vidas do jogador com 3 ao iniciar o jogo
         lives = 3;
         Debug.Log("Vidas do jogador: " + lives);
-        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
+        box = GetComponent<BoxCollider2D>();
+        
     }
 
     // Método para adicionar vidas (caso seja necessário em outros momentos do jogo)
@@ -30,14 +36,11 @@ public class PlayerLives : MonoBehaviour
 
         if (lives <= 0)
         {
-            Debug.Log("Game Over!");
-            anim.SetBool("EstaMorrendo",true);
-            // Exclui o jogador da cena
-            Destroy(gameObject);
-        }
-        else
-        {
-            anim.SetBool("EstaMorrendo",false);
+            sr.enabled = false;
+            box.enabled = false;
+            Morrendo.SetActive(true);
+            
+            Destroy(gameObject, 2f);
         }
         
     }

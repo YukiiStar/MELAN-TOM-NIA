@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 3
+  Morrendo: {fileID: 0}
 --- !u!61 &-4862672662192086019
 BoxCollider2D:
   m_ObjectHideFlags: 0

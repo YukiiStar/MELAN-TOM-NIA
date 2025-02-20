@@ -18,13 +18,11 @@ public class Setinhas : MonoBehaviour
     private List<KeyCode> enemySequence; // Sequência aleatória do inimigo
     private List<GameObject> arrowObjects = new List<GameObject>(); // Lista das setas visuais
     private int currentIndex = 0; // Índice da seta atual que deve ser pressionada
-    private Animator animacao;
 
     void Start()
     {
         GenerateRandomSequence();
         DisplayArrows();
-        animacao = GetComponent<Animator>();
         
         Debug.Log("Um inimigo apareceu! Pressione a sequência correta de teclas direcionais para derrotá-lo!");
         Debug.Log("Sequência do inimigo (para testes): " + string.Join(", ", enemySequence));
@@ -38,7 +36,6 @@ public class Setinhas : MonoBehaviour
         {
             if (Input.GetKeyDown(key))
             {
-                animacao.SetBool("EstaAtacando", true);
                 Debug.Log("Tecla pressionada: " + key);
 
                 // Verifica se a tecla pressionada é a próxima na sequência
@@ -50,14 +47,9 @@ public class Setinhas : MonoBehaviour
                     // Se todas as setas foram pressionadas corretamente
                     if (currentIndex >= enemySequence.Count)
                     {
-                        Debug.Log("Você derrotou o inimigo! Parabéns!");
                         GameController.Instance.EnemyDefeated(enemy.gameObject); // Notifica o GameController
                         GameController.Instance.Pickup(enemy.position);
                         this.enabled = false; // Desativa o script após a vitória
-                    }
-                    else
-                    {
-                        animacao.SetBool("EstaAtacando",false);
                     }
 
                 }
