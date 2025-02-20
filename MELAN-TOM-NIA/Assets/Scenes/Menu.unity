@@ -3335,7 +3335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b676627fe2ca0c34493d120bb2b7f7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDoLevelDeJogo: Jogo
+  nomeDoLevelDeJogo: Tutorial
   painelMenuInicial: {fileID: 1038993628}
   painelOpcoes: {fileID: 1388555794}
   painelLojinha: {fileID: 1560231061}

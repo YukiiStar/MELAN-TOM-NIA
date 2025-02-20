@@ -52,10 +52,11 @@ public class GameController : MonoBehaviour
 
     public void EnemyDefeated(GameObject enemy)
     {
-        activeEnemies.Remove(enemy);
-        Destroy(enemy);
-        killCount++;
-
+            
+            activeEnemies.Remove(enemy);
+            Destroy(enemy);
+            killCount++;
+        
         // Verifica se todos os inimigos foram derrotados
         if (activeEnemies.Count == 0)
         {
