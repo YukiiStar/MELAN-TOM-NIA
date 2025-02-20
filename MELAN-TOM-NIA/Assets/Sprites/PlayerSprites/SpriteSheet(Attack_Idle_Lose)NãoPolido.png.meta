@@ -1,0 +1,2120 @@
+fileFormatVersion: 2
+guid: 293a9a1fa47b48d499ddc5bf22f55a65
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_0"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 8145
+        width: 520
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4ea958dbe6a4f4f8745cd6a75ade92
+      internalID: 876121690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_1"
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 8145
+        width: 524
+        height: 712
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24341972976b59b4483881f3a86ff409
+      internalID: 904420077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_2"
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 8145
+        width: 535
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3538da02ae36445b7e677c1df01745
+      internalID: 228312563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_3"
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 8145
+        width: 537
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1745ad2472aac64aafc28b8d70abb38
+      internalID: 1919914249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_4"
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 8145
+        width: 537
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91bed23a60e8924982eb464a461abd0
+      internalID: 661241681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_5"
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 8145
+        width: 533
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114492a9413982c40a242aece0c526dc
+      internalID: -1741573345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_6"
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 8145
+        width: 525
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700e43d14c41d8d4f809259bb27e75cc
+      internalID: 1183504583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_7"
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 8145
+        width: 507
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846dd3d36eb02ff45a86fe0cd8818b14
+      internalID: 588123706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_8"
+      rect:
+        serializedVersion: 2
+        x: 5824
+        y: 8145
+        width: 494
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b1b0002566edd4d91d92be6532df03
+      internalID: -1414850229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_9"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 7257
+        width: 485
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c10a0f21a979224aa35bebcd92b2d3d
+      internalID: 1950748703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_10"
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 7257
+        width: 476
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0855b8f659cac024088edbbb2eee4efb
+      internalID: -1576318017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_11"
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 7257
+        width: 476
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5862b811be045b9498bfdd3cd4c82364
+      internalID: -385104158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_12"
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 7257
+        width: 472
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897acc6c4a605104b83525842c61e874
+      internalID: 224217337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_13"
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 7257
+        width: 468
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16538ff1a8154be47a3cd6ac0ffc6459
+      internalID: -240631012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_14"
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 7257
+        width: 476
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781d7ee0b91abfa45b2a08a50c3f7ca8
+      internalID: 62822577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_15"
+      rect:
+        serializedVersion: 2
+        x: 4408
+        y: 7257
+        width: 481
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b392b3e7f2342b49a3c833b79d23c27
+      internalID: -1299880611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_16"
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 7257
+        width: 494
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86c78ed0b940f8489ee0e1e138aeb93
+      internalID: 719892894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_17"
+      rect:
+        serializedVersion: 2
+        x: 5812
+        y: 7257
+        width: 497
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43485fb2db3434f4badc91fe01c1e3a2
+      internalID: -1709057402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_18"
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 6373
+        width: 494
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f690bb5f4fec643b06dffe4a658cbd
+      internalID: -1459675168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_19"
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 6371
+        width: 563
+        height: 708
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16e331e79e41194aaa928735caf6660
+      internalID: -517737516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_20"
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 6373
+        width: 554
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86453d8fd5226744cac8d52224b04570
+      internalID: -857496869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_21"
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 6373
+        width: 551
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02599c395c28cb4fa032d2583351495
+      internalID: 1219110533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_22"
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 6371
+        width: 546
+        height: 712
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb16c04924461942970d37cd407a3cc
+      internalID: -636441809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_23"
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 6370
+        width: 537
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f8538f0b06c8b4eb53d0478ea96b6e
+      internalID: -1140735483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_24"
+      rect:
+        serializedVersion: 2
+        x: 4364
+        y: 6370
+        width: 533
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbf9e57e3f7f294d9db666310beb6d6
+      internalID: 1688399604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_25"
+      rect:
+        serializedVersion: 2
+        x: 5079
+        y: 6370
+        width: 524
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eab2a443608a1449e4286f00060d3e
+      internalID: -2093462878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_26"
+      rect:
+        serializedVersion: 2
+        x: 5794
+        y: 6373
+        width: 515
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4924493c3fcc312468c0886474997c7a
+      internalID: -203971986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_27"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5485
+        width: 503
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27410f0729d7a81419c1501f5961da8f
+      internalID: 627933376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_28"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 5485
+        width: 490
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cfbc8cf468423418fb0bea9d41e6fc
+      internalID: -679873882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_29"
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 5485
+        width: 476
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f23b87e240b6b248b86b3c42d23184e
+      internalID: -902931939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_30"
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 5485
+        width: 462
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0710e9d967791c469eed87a737143d7
+      internalID: 1208465974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_31"
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 5485
+        width: 450
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e56e2684403e2b439e986638d5d1906
+      internalID: 41352063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_32"
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 5485
+        width: 454
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4ad503648d28e4f814dc53bab3e909
+      internalID: 912064821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_33"
+      rect:
+        serializedVersion: 2
+        x: 4425
+        y: 5485
+        width: 459
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d5c1030caaf5a4f94924045f92e16b
+      internalID: 52229342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_34"
+      rect:
+        serializedVersion: 2
+        x: 5131
+        y: 5485
+        width: 464
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbea4378d845864ea77c823fce93705
+      internalID: -1071208142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_35"
+      rect:
+        serializedVersion: 2
+        x: 5837
+        y: 5485
+        width: 471
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39860e32bba1144bae78c766db0943d
+      internalID: -1903721160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_36"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 4597
+        width: 485
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c983965a70a62d641b4c22fed66bb63d
+      internalID: 283497771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_37"
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 4597
+        width: 493
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42cfd0e3f31f8d429e32afcea9951c0
+      internalID: 2118735245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_38"
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 4597
+        width: 507
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4fbfe37c63bc947bdcf300cfd6aee1
+      internalID: -356306057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_39"
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4597
+        width: 520
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5b2dec088838e4d90d1606a208bbde
+      internalID: -1050384648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_40"
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 4597
+        width: 536
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcafff4d2c918044972fe8eb1b0efde
+      internalID: -1813482922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_41"
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 4597
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ece7de6c7784a4f9e3cf2c20e211df
+      internalID: 331427718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_42"
+      rect:
+        serializedVersion: 2
+        x: 4347
+        y: 4597
+        width: 555
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd3c532e27e6794cace9f4aa8c55cd8
+      internalID: 740144119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_43"
+      rect:
+        serializedVersion: 2
+        x: 5049
+        y: 4597
+        width: 563
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4440e6a410006d24da48024a8adbae3f
+      internalID: 21777028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_44"
+      rect:
+        serializedVersion: 2
+        x: 5798
+        y: 4597
+        width: 507
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eac989600b31a64f95bf18c6c46117c
+      internalID: -286305076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_45"
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3692
+        width: 502
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd181ad96dc447468c2d8629a9eee5d
+      internalID: 1161246245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_46"
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 3692
+        width: 498
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296a5c32b30a7744a870ef327cedf62a
+      internalID: 614079340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_47"
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 3684
+        width: 493
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f1a20483b383740811511fdc5c45db
+      internalID: 1184202558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_48"
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 3658
+        width: 489
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed14bc12d490394cb34e70a3dc19fe0
+      internalID: 590545754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_49"
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 3658
+        width: 480
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f18f7a06a5478246b2f3263e80b74a5
+      internalID: -688473102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_50"
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 3658
+        width: 480
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b4b8456e7fea346be12aa78a18ca6b
+      internalID: 173964077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_51"
+      rect:
+        serializedVersion: 2
+        x: 4387
+        y: 3658
+        width: 495
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a11b8d77a1820640866d46d72c8f250
+      internalID: -1052137800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_52"
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 3662
+        width: 502
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a765a8dc1a3df49b6f0f0062cad70d
+      internalID: 1517246169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_53"
+      rect:
+        serializedVersion: 2
+        x: 5811
+        y: 3662
+        width: 511
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0846b375bd022d47b1dbc2b4d700385
+      internalID: -913816235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_54"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2774
+        width: 511
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bea4a6a798fee47915f69da766e045
+      internalID: -1359373809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_55"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2770
+        width: 516
+        height: 666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cf0840d064d35438c69de48db016c4
+      internalID: 1855450336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_56"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 2765
+        width: 515
+        height: 667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd04b969c2efe440a7a4136ffdd367f
+      internalID: -260562035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_57"
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 2761
+        width: 515
+        height: 658
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccc41ded5dfe4d44aa5f6fa950fc9ad
+      internalID: -1064687580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_58"
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 2761
+        width: 516
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb2876bf65af3c409a3d79f8780d196
+      internalID: 553691627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_59"
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 2761
+        width: 515
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec20b833b87cdc5419e0d40693fc4922
+      internalID: 17856785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_60"
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 2761
+        width: 516
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44551a705041f354a873316e913153af
+      internalID: 1826797266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_61"
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 2761
+        width: 516
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60917d398c189e441b8eeb35f3967d8d
+      internalID: 1128095692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_62"
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 2761
+        width: 515
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f327e33fb4d21d646a4b2db64c93c716
+      internalID: -20730910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_63"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1873
+        width: 516
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e759d5f7cd08e48af3dd337ad49d70
+      internalID: -1195293593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_64"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1873
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef4af9805eb44241b355efad4d748dd
+      internalID: -324618652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_65"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1873
+        width: 515
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6504d112ee2afc4796f4d96ef790f49
+      internalID: -656816605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_66"
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 1873
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd926966ce50a1449ac3f1b83ecef22
+      internalID: 1870919986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_67"
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 1873
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2792e42a11a68b44cbe8d11bf6a5c0ec
+      internalID: -1667574744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_68"
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 1873
+        width: 515
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245fccb8b0bd8dd4c8bd526be8a41ef5
+      internalID: -640467245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_69"
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 1873
+        width: 516
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18d71d8c61d153458fe90538311399a
+      internalID: -727230465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_70"
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 1873
+        width: 516
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98af94a4a01f3d94fa1987ef13f6ab8b
+      internalID: -1570391139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_71"
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 1873
+        width: 515
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a002bdb8825e03f4492b52cee4c4390e
+      internalID: -961650960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_72"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 986
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46be90ecd34aa147a5360c50d1921f5
+      internalID: 1432296640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_73"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 985
+        width: 516
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b52c509c07c5441803a337e2639552
+      internalID: 1995409899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_74"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 985
+        width: 515
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49fcec7505005d46bcdd7394b4a4fd5
+      internalID: 1176938147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_75"
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 985
+        width: 516
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ee7f566513bd44ab554accf2089695
+      internalID: 1437122433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_76"
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 985
+        width: 516
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1229c5244a9efd844a639fa19e84109d
+      internalID: -614190348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_77"
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 985
+        width: 515
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2689725cacb7f12448c49fe763597a52
+      internalID: 1551769938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_78"
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 985
+        width: 516
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05663e26e7cf978408a66290c5ca8a60
+      internalID: -1565216702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_79"
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 986
+        width: 516
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7230503335efb449c372916d39b90a
+      internalID: -1296999816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_80"
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 986
+        width: 515
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba687b7d87259e2448fc09814504309f
+      internalID: -680110985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_81"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 102
+        width: 516
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b879838704d28c44fb1a1b050cd5ff90
+      internalID: -1318569652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_82"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 102
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138e902fcfeb57e4e830d6e4e0f7e7f1
+      internalID: 258492073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_83"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 102
+        width: 515
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c571dabe38019438d8ea7e58de4670
+      internalID: -429818496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_84"
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 102
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310a6cc3e32e3ec44945789a83066a7b
+      internalID: 742631829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_85"
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 102
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2140a2c72f915f04eb848c715b14cee2
+      internalID: 1196810107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_86"
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 102
+        width: 515
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bb8deed80143f4383afedb6141228c
+      internalID: -603032981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_87"
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 102
+        width: 516
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653fe22243b644740960c4bc3643e384
+      internalID: 885848105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_88"
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 99
+        width: 516
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7e2849684fab442ba5e413640e645b
+      internalID: -5378918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_89"
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 98
+        width: 515
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f752e144d305b48b731554daf5f434
+      internalID: -554754812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_0": 876121690
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_1": 904420077
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_10": -1576318017
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_11": -385104158
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_12": 224217337
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_13": -240631012
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_14": 62822577
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_15": -1299880611
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_16": 719892894
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_17": -1709057402
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_18": -1459675168
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_19": -517737516
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_2": 228312563
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_20": -857496869
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_21": 1219110533
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_22": -636441809
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_23": -1140735483
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_24": 1688399604
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_25": -2093462878
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_26": -203971986
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_27": 627933376
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_28": -679873882
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_29": -902931939
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_3": 1919914249
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_30": 1208465974
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_31": 41352063
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_32": 912064821
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_33": 52229342
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_34": -1071208142
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_35": -1903721160
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_36": 283497771
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_37": 2118735245
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_38": -356306057
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_39": -1050384648
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_4": 661241681
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_40": -1813482922
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_41": 331427718
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_42": 740144119
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_43": 21777028
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_44": -286305076
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_45": 1161246245
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_46": 614079340
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_47": 1184202558
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_48": 590545754
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_49": -688473102
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_5": -1741573345
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_50": 173964077
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_51": -1052137800
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_52": 1517246169
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_53": -913816235
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_54": -1359373809
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_55": 1855450336
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_56": -260562035
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_57": -1064687580
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_58": 553691627
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_59": 17856785
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_6": 1183504583
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_60": 1826797266
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_61": 1128095692
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_62": -20730910
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_63": -1195293593
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_64": -324618652
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_65": -656816605
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_66": 1870919986
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_67": -1667574744
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_68": -640467245
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_69": -727230465
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_7": 588123706
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_70": -1570391139
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_71": -961650960
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_72": 1432296640
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_73": 1995409899
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_74": 1176938147
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_75": 1437122433
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_76": -614190348
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_77": 1551769938
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_78": -1565216702
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_79": -1296999816
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_8": -1414850229
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_80": -680110985
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_81": -1318569652
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_82": 258492073
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_83": -429818496
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_84": 742631829
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_85": 1196810107
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_86": -603032981
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_87": 885848105
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_88": -5378918
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_89": -554754812
+      "SpriteSheet(Attack_Idle_Lose)N\xE3oPolido_9": 1950748703
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
