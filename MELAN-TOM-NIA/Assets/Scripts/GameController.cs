@@ -61,7 +61,7 @@ public class GameController : MonoBehaviour
         if (activeEnemies.Count == 0)
         {
             Debug.Log("Todos os inimigos foram derrotados! Você venceu!");
-            LoadMenu();
+            SceneManager.LoadScene("Level01");
         }
     }
 
@@ -91,13 +91,5 @@ public class GameController : MonoBehaviour
         killsUntilReward = Random.Range(2, 5); // Sorteia entre 3 e 7 kills para spawnar o coletável
     }
 
-    public void LoadMenu()
-    {
-        SceneManager.LoadScene("Menu"); // Carrega a cena do menu
-    }
 
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Recarrega a cena atual
-    }
 }
