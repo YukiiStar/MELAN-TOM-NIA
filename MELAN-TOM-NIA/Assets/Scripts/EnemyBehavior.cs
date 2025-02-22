@@ -40,6 +40,7 @@ public class EnemyBehavior : MonoBehaviour
         // Verifica se o objeto colidido tem a tag "Player"
         if (collision.CompareTag("Player"))
         {
+            AudioManager.Instance.PlayPlayerHitSound();
             // Tenta obter o componente PlayerLives do objeto do jogador
             PlayerLives playerLives = collision.GetComponent<PlayerLives>();
             if (playerLives != null)

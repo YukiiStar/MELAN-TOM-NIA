@@ -39,6 +39,7 @@ public class PlayerLives : MonoBehaviour
             sr.enabled = false;
             box.enabled = false;
             Morrendo.SetActive(true);
+            AudioManager.Instance.PlayPlayerDeathSound();
             
             Destroy(gameObject, 2f);
         }

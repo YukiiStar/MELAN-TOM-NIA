@@ -6,9 +6,12 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
     
+    
     [SerializeField] private AudioSource sfxSource;
     
     [SerializeField] private AudioClip enemyDeathSound;
+    [SerializeField] private AudioClip playerHitSound;
+    [SerializeField] private AudioClip playerDeathSound;
     
     private void Awake()
     {
@@ -29,6 +32,22 @@ public class AudioManager : MonoBehaviour
         if (enemyDeathSound != null)
         {
             sfxSource.PlayOneShot(enemyDeathSound);
+        }
+    }
+    
+    public void PlayPlayerHitSound()
+    {
+        if (playerHitSound != null)
+        {
+            sfxSource.PlayOneShot(playerHitSound);
+        }
+    }
+    
+    public void PlayPlayerDeathSound()
+    {
+        if (playerDeathSound != null)
+        {
+            sfxSource.PlayOneShot(playerDeathSound);
         }
     }
 }
