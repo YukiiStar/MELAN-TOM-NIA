@@ -8,12 +8,12 @@ public class EnemyMove2 : MonoBehaviour
      variável PosAtual, ao invés de deixar ela como variável publica e referenciar o Transform do Player
      manualmente no inspector. Tava dando um probleminha que sempre que eu adicionava um prefab do inimigo
      na cena precisava referenciar o Transform do Player de novo pra cada inimigo, aí assim fica um pouco
-     mais prático. 
+     mais prático.
      Ass: Luís */
     public Transform Inimigo;
     private Transform PosAtual;
     public float veloc;
-  
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,9 +25,8 @@ public class EnemyMove2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
-        Inimigo.position = Vector3.MoveTowards(Inimigo.position,PosAtual.position, veloc * Time.deltaTime);
-      
+        {
+            Inimigo.position = Vector3.MoveTowards(Inimigo.position, PosAtual.position, veloc * Time.deltaTime);
+        }
     }
-
 }

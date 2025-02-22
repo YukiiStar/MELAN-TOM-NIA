@@ -39,7 +39,7 @@ public class PlayerLives : MonoBehaviour
             sr.enabled = false;
             box.enabled = false;
             Morrendo.SetActive(true);
-            AudioManager.Instance.PlayPlayerDeathSound();
+            AudioManager.Instance.PlayPlayerDeathSound(); //Toca o sfx de morte do player
             
             Destroy(gameObject, 2f);
         }

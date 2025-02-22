@@ -10,8 +10,10 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource sfxSource;
     
     [SerializeField] private AudioClip enemyDeathSound;
-    [SerializeField] private AudioClip playerHitSound;
+    [SerializeField] private AudioClip enemyAttackSound;
     [SerializeField] private AudioClip playerDeathSound;
+    [SerializeField] private AudioClip playerAttackSound;
+    
     
     private void Awake()
     {
@@ -35,11 +37,11 @@ public class AudioManager : MonoBehaviour
         }
     }
     
-    public void PlayPlayerHitSound()
+    public void PlayEnemyAttackSound()
     {
-        if (playerHitSound != null)
+        if (enemyAttackSound != null)
         {
-            sfxSource.PlayOneShot(playerHitSound);
+            sfxSource.PlayOneShot(enemyAttackSound);
         }
     }
     
@@ -48,6 +50,14 @@ public class AudioManager : MonoBehaviour
         if (playerDeathSound != null)
         {
             sfxSource.PlayOneShot(playerDeathSound);
+        }
+    }
+    
+    public void PlayPlayerAttackSound()
+    {
+        if (playerAttackSound != null)
+        {
+            sfxSource.PlayOneShot(playerAttackSound);
         }
     }
 }
