@@ -47,6 +47,7 @@ public class Setinhas : MonoBehaviour
                     // Se todas as setas foram pressionadas corretamente
                     if (currentIndex >= enemySequence.Count)
                     {
+                        AudioManager.Instance.PlayPlayerAttackSound(); //Toca o sfx de ataque do player
                         GameController.Instance.EnemyDefeated(enemy.gameObject); // Notifica o GameController
                         GameController.Instance.Pickup(enemy.position);
                         this.enabled = false; // Desativa o script após a vitória

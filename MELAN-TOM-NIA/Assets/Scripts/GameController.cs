@@ -52,10 +52,10 @@ public class GameController : MonoBehaviour
 
     public void EnemyDefeated(GameObject enemy)
     {
-            
             activeEnemies.Remove(enemy);
             Destroy(enemy);
             killCount++;
+            AudioManager.Instance.PlayEnemyDeathSound(); //Toca o som de morte do inimigo
         
         // Verifica se todos os inimigos foram derrotados
         if (activeEnemies.Count == 0)
@@ -69,7 +69,8 @@ public class GameController : MonoBehaviour
     {
         if (killCount >= killsUntilReward)
         {
-            GameObject pickup = Instantiate(coletavel, enemyPos, Quaternion.identity); //Cria o coletavel
+            GameObject pickup = Instantiate(coletavel, enemyPos, Quaternion.identity); /*Cria o coletavel
+            na posição de morte do inimigo */
             activePickups.Add(pickup); // Adiciona o coletavel à lista
             killCount = 0; // Resetar o contador
             RandomizeKills(); //Aleatoriza novamente
