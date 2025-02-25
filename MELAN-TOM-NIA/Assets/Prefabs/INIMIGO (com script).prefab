@@ -62,6 +62,8 @@ MonoBehaviour:
   downArrowSprite: {fileID: 21300000, guid: 4c149df1b7c73034db2a09d00eeee121, type: 3}
   leftArrowSprite: {fileID: 21300000, guid: c27e0dbf4d86dca4e87b8e074010d8a3, type: 3}
   rightArrowSprite: {fileID: 21300000, guid: 29f30e8f9a6d55a4599fd27c85552728, type: 3}
+  player: {fileID: 7569984012367557116, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
+  attackingObject: {fileID: 475687133539789265, guid: 178ddb548e4ac0341ad0db3c0f120da3, type: 3}
 --- !u!114 &1041762978287951752
 MonoBehaviour:
   m_ObjectHideFlags: 0
