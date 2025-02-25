@@ -3,6 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum GameState
+{
+    Playing,
+    IsGameOver,
+    Ended,
+    Paused
+}
+
+
 public class GameController : MonoBehaviour
 {
     public static GameController Instance; // Singleton para facilitar o acesso ao GameController
@@ -17,6 +26,8 @@ public class GameController : MonoBehaviour
 
     private List<GameObject> activeEnemies = new List<GameObject>(); // Lista de inimigos ativos
     private List<GameObject> activePickups = new List<GameObject>(); // Lista de pickups ativos
+
+    public GameState currentGameState;
 
     void Awake()
     {
@@ -34,6 +45,7 @@ public class GameController : MonoBehaviour
     {
         StartCoroutine(SpawnEnemies());
         RandomizeKills();
+        currentGameState = GameState.Playing;
     }
 
     IEnumerator SpawnEnemies()
@@ -53,7 +65,7 @@ public class GameController : MonoBehaviour
     public void EnemyDefeated(GameObject enemy)
     {
             activeEnemies.Remove(enemy);
-            Destroy(enemy);
+            Destroy(enemy.transform.parent.gameObject);
             killCount++;
             AudioManager.Instance.PlayEnemyDeathSound(); //Toca o som de morte do inimigo
         
@@ -92,5 +104,11 @@ public class GameController : MonoBehaviour
         killsUntilReward = Random.Range(2, 5); // Sorteia entre 3 e 7 kills para spawnar o coletável
     }
 
+    public void CheckGameOver(int lives){
+        if (lives <= 0)
+        {
+            currentGameState = GameState.IsGameOver;
+        }
+    }
 
 }
