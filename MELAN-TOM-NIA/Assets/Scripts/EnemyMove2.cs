@@ -18,6 +18,8 @@ public class EnemyMove2 : MonoBehaviour
     void Start()
     {
         Inimigo.position = Inimigo.position;
+        
+        if (GameController.Instance.currentGameState == GameState.IsGameOver) return;
         PosAtual = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
@@ -25,8 +27,9 @@ public class EnemyMove2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        {
-            Inimigo.position = Vector3.MoveTowards(Inimigo.position, PosAtual.position, veloc * Time.deltaTime);
-        }
+        if (GameController.Instance.currentGameState == GameState.IsGameOver) return;
+        
+        Inimigo.position = Vector3.MoveTowards(Inimigo.position, PosAtual.position, veloc * Time.deltaTime);
+        
     }
 }
