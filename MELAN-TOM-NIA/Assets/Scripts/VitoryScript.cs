@@ -20,7 +20,7 @@ public class VitoryScript : MonoBehaviour
     }
     
 
-public void JogarProximaFase()
+    public void JogarProximaFase()
     {
         SceneManager.LoadScene(proximafase);
        
