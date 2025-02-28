@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Canvavit.unity
+    guid: 60627c5d064270f40ab8f8aa6d502fbb
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 356831541e5af07439e49346fc6a323e
   - enabled: 1
-    path: Assets/Scenes/Jogo.unity
+    path: Assets/Scenes/Tutorial.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level01.unity
+    guid: 3c19f594ff77c5a4ebacadfccc5417b5
   m_configObjects: {}

@@ -3,7 +3,13 @@ guid: 1c9e48ef9709bb44993d6cbb432acc9f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - arrowPrefab: {instanceID: 0}
+  - enemy: {instanceID: 0}
+  - upArrowSprite: {fileID: 21300000, guid: fa2c604ed2dc9d948863f6d2099892c8, type: 3}
+  - downArrowSprite: {fileID: 21300000, guid: 4c149df1b7c73034db2a09d00eeee121, type: 3}
+  - leftArrowSprite: {fileID: 21300000, guid: c27e0dbf4d86dca4e87b8e074010d8a3, type: 3}
+  - rightArrowSprite: {fileID: 21300000, guid: 29f30e8f9a6d55a4599fd27c85552728, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

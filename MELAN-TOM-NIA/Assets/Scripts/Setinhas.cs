@@ -13,7 +13,7 @@ public class Setinhas : MonoBehaviour
     public Vector3 arrowOffset = new Vector3(0, 1.2f, 0); // Posiciona as setas mais próximas do inimigo
     public float arrowSpacing = 0.6f; // Reduz a distância entre as setas
     public Sprite upArrowSprite, downArrowSprite, leftArrowSprite, rightArrowSprite; // Sprites das setas
-
+    public Animator anim;
     private List<KeyCode> possibleArrows = new List<KeyCode> { KeyCode.UpArrow, KeyCode.DownArrow, KeyCode.LeftArrow, KeyCode.RightArrow };
     private List<KeyCode> enemySequence; // Sequência aleatória do inimigo
     private List<GameObject> arrowObjects = new List<GameObject>(); // Lista das setas visuais
@@ -21,6 +21,7 @@ public class Setinhas : MonoBehaviour
 
     void Start()
     {
+        anim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();  
         GenerateRandomSequence();
         DisplayArrows();
         
@@ -41,16 +42,21 @@ public class Setinhas : MonoBehaviour
                 // Verifica se a tecla pressionada é a próxima na sequência
                 if (key == enemySequence[currentIndex])
                 {
+                    
                     Destroy(arrowObjects[currentIndex]); // Remove a seta correspondente
                     currentIndex++; // Avança para a próxima tecla esperada
-
                     // Se todas as setas foram pressionadas corretamente
                     if (currentIndex >= enemySequence.Count)
                     {
-                        Debug.Log("Você derrotou o inimigo! Parabéns!");
+                        AudioManager.Instance.PlayPlayerAttackSound(); // Toca o sfx de ataque do player
                         GameController.Instance.EnemyDefeated(enemy.gameObject); // Notifica o GameController
+
+                        anim.SetTrigger("EstaAtacando");
+                        
+
+                        GameController.Instance.Pickup(enemy.position);
                         this.enabled = false; // Desativa o script após a vitória
-                    } 
+                    }
                 }
             }
         }
@@ -85,5 +91,6 @@ public class Setinhas : MonoBehaviour
             arrow.transform.SetParent(enemy); // Define as setas como filhas do inimigo
             arrowObjects.Add(arrow);
         }
-    } 
+    }
 }
+
