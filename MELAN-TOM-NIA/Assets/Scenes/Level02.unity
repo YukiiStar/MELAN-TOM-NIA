@@ -440,6 +440,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2929799324099694350, guid: db0c6e2e1ccd17845b805ada6fb5aa6d, type: 3}
+      propertyPath: NomeDoLevel
+      value: Level03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929799324099694350, guid: db0c6e2e1ccd17845b805ada6fb5aa6d, type: 3}
       propertyPath: enemyPrefab
       value: 
       objectReference: {fileID: 3137894402634458596, guid: 70929e80f39d11542b314d09b245889b, type: 3}

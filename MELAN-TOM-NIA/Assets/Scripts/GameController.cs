@@ -27,6 +27,9 @@ public class GameController : MonoBehaviour
     private List<GameObject> activeEnemies = new List<GameObject>(); // Lista de inimigos ativos
     private List<GameObject> activePickups = new List<GameObject>(); // Lista de pickups ativos
 
+    public string NomeDoLevel;
+    private int KillsParaProxLevel;
+
     public GameState currentGameState;
 
     void Awake()
@@ -67,16 +70,29 @@ public class GameController : MonoBehaviour
             activeEnemies.Remove(enemy);
             Destroy(enemy.transform.parent.gameObject);
             killCount++;
+            KillsParaProxLevel++;
             AudioManager.Instance.PlayEnemyDeathSound(); //Toca o som de morte do inimigo
         
         // Verifica se todos os inimigos foram derrotados
-        if (activeEnemies.Count == 0)
+        if (KillsParaProxLevel == maxEnemies)
         {
             Debug.Log("Todos os inimigos foram derrotados! Você venceu!");
-            SceneManager.LoadScene("Level01");
+            SceneManager.LoadScene(NomeDoLevel);
         }
     }
 
+    void ProxLevelUp()
+    {
+        
+        // Verifica se todos os inimigos foram derrotados
+        if (KillsParaProxLevel == maxEnemies)
+        {
+            Debug.Log("Todos os inimigos foram derrotados! Você venceu!");
+            SceneManager.LoadScene(NomeDoLevel);
+        }
+        
+    }
+    
     public void Pickup(Vector2 enemyPos)
     {
         if (killCount >= killsUntilReward)
