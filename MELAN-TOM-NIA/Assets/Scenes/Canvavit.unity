@@ -133,19 +133,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 75841477680594657, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100.77
+      value: 393.5743
       objectReference: {fileID: 0}
     - target: {fileID: 75841477680594657, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 108.436
+      value: 674.7359
       objectReference: {fileID: 0}
     - target: {fileID: 75841477680594657, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -4.2523
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 75841477680594657, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.2094
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 294944976106647389, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -224,6 +224,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2272539380243766259, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2272539380243766259, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2272539380243766259, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2272539380243766259, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -283,6 +295,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: VitoryScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 4887728384455369499, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7180479051159788604, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -298,6 +314,14 @@ PrefabInstance:
     - target: {fileID: 7180479051159788604, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: VitoryScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8515152359058031158, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1496511017}
+    - target: {fileID: 8515152359058031158, guid: f981cfeb1b6df98459fef89793fe5cb1, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -509,7 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voltarMenu: Menu
-  proximafase: Level01
+  proximafase: Tutorial
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
