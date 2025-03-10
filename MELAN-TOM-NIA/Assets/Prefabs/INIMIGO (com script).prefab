@@ -56,14 +56,13 @@ MonoBehaviour:
   sequenceLength: 5
   arrowPrefab: {fileID: 6706132655353582965}
   enemy: {fileID: 3942404547052977572}
-  arrowOffset: {x: -1.6, y: 1.5, z: 0}
+  arrowOffset: {x: -1.6, y: 2.5, z: 0}
   arrowSpacing: 1
   upArrowSprite: {fileID: 21300000, guid: fa2c604ed2dc9d948863f6d2099892c8, type: 3}
   downArrowSprite: {fileID: 21300000, guid: 4c149df1b7c73034db2a09d00eeee121, type: 3}
   leftArrowSprite: {fileID: 21300000, guid: c27e0dbf4d86dca4e87b8e074010d8a3, type: 3}
   rightArrowSprite: {fileID: 21300000, guid: 29f30e8f9a6d55a4599fd27c85552728, type: 3}
-  player: {fileID: 7569984012367557116, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
-  attackingObject: {fileID: 475687133539789265, guid: 178ddb548e4ac0341ad0db3c0f120da3, type: 3}
+  anim: {fileID: 0}
 --- !u!114 &1041762978287951752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,8 +213,8 @@ Transform:
   m_GameObject: {fileID: 5471464168136186594}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: -4, z: 0}
-  m_LocalScale: {x: 1, y: 1.7063, z: 1}
+  m_LocalPosition: {x: -1.79, y: -4, z: 0}
+  m_LocalScale: {x: 2.0988803, y: 1.9777725, z: 1.1591}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3917297071065553563}
@@ -261,12 +260,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 95655dce85ed0a04d87b1f860a775539, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.2, y: 5.94}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -304,18 +303,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.09}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 4.2, y: 5.94}
+    newSize: {x: 4.2, y: 5.94}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.82, y: 0.81}
   m_EdgeRadius: 0
 --- !u!1 &6706132655353582965
 GameObject:
