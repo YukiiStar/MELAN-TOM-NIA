@@ -414,7 +414,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -0.35, z: 0}
-  m_LocalScale: {x: 0.52222145, y: 0.52222145, z: 0.52222145}
+  m_LocalScale: {x: 0.6560668, y: 0.6560668, z: 0.6560668}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -620,6 +620,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4862672662192086019, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 5.63
+      objectReference: {fileID: 0}
+    - target: {fileID: -4862672662192086019, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 7.081506
+      objectReference: {fileID: 0}
+    - target: {fileID: -4862672662192086019, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5.63
       objectReference: {fileID: 0}
@@ -684,6 +692,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6759632441997204824, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
+      propertyPath: m_Size.x
+      value: 5.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759632441997204824, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
+      propertyPath: m_Size.y
+      value: 7.081506
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759632441997204824, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -517737516, guid: 293a9a1fa47b48d499ddc5bf22f55a65, type: 3}
@@ -691,9 +707,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6759632441997204824, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6808946307049839534, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808946307049839534, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6808946307049839534, guid: e76b60920b8f26045a7bdf66eccb3555, type: 3}
       propertyPath: m_TagString
